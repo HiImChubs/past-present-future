@@ -1,10 +1,11 @@
 body{
-  background-color: later;
+  background-color: #ced9ea;
 }
 
 h1{
-  border: 5px solid later;
+  border: 5px solid #d988ef;
   padding: 12px;
+  border-radius: 50px;
   text-align: center;
   font-family: 'Patua One', sans-serif;
   font-size: 40 px;
@@ -17,6 +18,11 @@ h2{
 }
 body{
   font-family: 'Baloo', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: later;
+}
+
+h3{
+  font-family: 'Capriola', sans-serif;
+  font-size: 25px
 }
