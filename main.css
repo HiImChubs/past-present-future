@@ -1,5 +1,6 @@
 body{
   background-color: #ced9ea;
+  font-family: 'Capriola', sans-serif;
 }
 
 h1{
@@ -8,7 +9,7 @@ h1{
   border-radius: 50px;
   text-align: center;
   font-family: 'Patua One', sans-serif;
-  font-size: 40 px;
+  font-size: 40px;
   color: later;
 }
 h2{
@@ -16,13 +17,35 @@ h2{
   font-size: 30px;
   color: later;
 }
-body{
+p {
   font-family: 'Baloo', sans-serif;
   font-size: 18px;
   color: later;
+  line-height: 1.8;
+  margin: 20px;
+  max-width: 900px;
 }
 
 h3{
   font-family: 'Capriola', sans-serif;
-  font-size: 25px
+  font-size: 25px;
+}
+
+img {
+  max-width: 100%
+}
+img.left {
+  float: left;
+  margin-right: 20px;
+}
+
+img.right {
+  float: right;
+  margin-left: 20px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
